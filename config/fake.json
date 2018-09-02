@@ -1,0 +1,140 @@
+{
+  "projectTestDetail": {
+    "profile": {
+      "tester": "饺子",
+      "projectName": "this is project",
+      "date": "2018-12-13 17:02:22",
+      "description": "这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块这是一个测试模块",
+      "total": 100,
+      "successTotal": 89,
+      "failTotal": 68,
+      "penddingTotal": 11,
+      "successRate": "32%",
+      "failRate": "68%",
+      "penddingRate": "11%"
+    },
+    "modelDetail": {
+      "model1": {
+        "hasSub": true,
+        "status": "success",
+        "detail": {
+          "function1": {
+            "测试用例序号": "Times: 637ms",
+            "测试步骤序号": "Details",
+            "测试步骤描述": "http://www.baidu.com",
+            "执行操作": "POST",
+            "定位方式": "200",
+            "测试对象定位实体": "Content-Type,application/json=Accept-Charst...",
+            "测试数据": "{'mobile':'1333333333','password':'123321'}",
+            "测试结果校验数据": "http://www.google.com",
+            "执行结果": "造测试数据要死",
+            "status": "success"
+          },
+          "function2": {
+            "测试用例序号": "Times: 637ms",
+            "测试步骤序号": "Details",
+            "测试步骤描述": "http://www.baidu.com",
+            "执行操作": "POST",
+            "定位方式": "200",
+            "测试对象定位实体": "Content-Type,application/json=Accept-Charst...",
+            "测试数据": "{'mobile':'1333333333','password':'123321'}",
+            "测试结果校验数据": "http://www.google.com",
+            "执行结果": "造测试数据好难啊",
+            "status": "pendding"
+          },
+          "function3": {
+            "测试用例序号": "Times: 637ms",
+            "测试步骤序号": "Details",
+            "测试步骤描述": "http://www.baidu.com",
+            "执行操作": "POST",
+            "定位方式": "200",
+            "测试对象定位实体": "Content-Type,application/json=Accept-Charst...",
+            "测试数据": "{'mobile':'1333333333','password':'123321'}",
+            "测试结果校验数据": "http://www.google.com",
+            "执行结果": "成功",
+            "status": "pendding"
+          }
+        }
+      },
+      "model2": {
+        "hasSub": false,
+        "测试用例序号": "Times: 637ms",
+        "测试步骤序号": "Details",
+        "测试步骤描述": "http://www.baidu.com",
+        "执行操作": "POST",
+        "定位方式": "200",
+        "测试对象定位实体": "Content-Type,application/json=Accept-Charst...",
+        "测试数据": "{'mobile':'1333333333','password':'123321'}",
+        "测试结果校验数据": "http://www.google.com",
+        "执行结果": "成功",
+        "status": "failed"
+      },
+      "model3": {
+        "hasSub": true,
+        "status": "pendding",
+        "detail": {
+          "功能1": {
+            "测试用例序号": "Times: 637ms",
+            "测试步骤序号": "Details",
+            "测试步骤描述": "http://www.woshinibaba.com",
+            "执行操作": "POST",
+            "定位方式": "200",
+            "测试对象定位实体": "Content-Type,application/json=Accept-Charst...",
+            "测试数据": "{'mobile':'1333333333','password':'123321'}",
+            "测试结果校验数据": "http://www.google.com",
+            "执行结果": "成功",
+            "status": "failed"
+          },
+          "功能2": {
+            "测试用例序号": "Times: 637ms",
+            "测试步骤序号": "Details",
+            "测试步骤描述": "http://www.baidu.com",
+            "执行操作": "POST",
+            "定位方式": "200",
+            "测试对象定位实体": "Content-Type,application/json=Accept-Charst...",
+            "测试数据": "{'mobile':'1333333333','password':'123321'}",
+            "测试结果校验数据": "http://www.google.com",
+            "执行结果": "成功",
+            "status": "failed"
+          },
+          "功能3": {
+            "测试用例序号": "Times: 637ms",
+            "测试步骤序号": "Details",
+            "测试步骤描述": "http://www.alibaba.com",
+            "执行操作": "POST",
+            "定位方式": "200",
+            "测试对象定位实体": "Content-Type,application/json=Accept-Charst...",
+            "测试数据": "{'mobile':'1333333333','password':'123321'}",
+            "测试结果校验数据": "http://www.iqiyi.com",
+            "执行结果": "成功",
+            "status": "success"
+          },
+          "功能4": {
+            "测试用例序号": "Times: 637ms",
+            "测试步骤序号": "Details",
+            "测试步骤描述": "http://www.baidu.com",
+            "执行操作": "POST",
+            "定位方式": "200",
+            "测试对象定位实体": "Content-Type,application/json=Accept-Charst...",
+            "测试数据": "{'mobile':'1333333333','password':'123321'}",
+            "测试结果校验数据": "http://www.youku.com",
+            "执行结果": "成功",
+            "status": "success"
+          },
+          "功能5": {
+            "测试用例序号": "Times: 333",
+            "测试步骤序号": "Details",
+            "测试步骤描述": "http://www.yousuu.com",
+            "执行操作": "POST",
+            "定位方式": "200",
+            "测试对象定位实体": "Content-Type,application/json=Accept-Charst...",
+            "测试数据": "{'mobile':'13213213','password':'123321'}",
+            "测试结果校验数据": "http://www.google.com",
+            "执行结果": "成功",
+            "status": "success"
+          }
+        }
+      }
+    }
+  }
+}
